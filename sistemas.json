@@ -1,0 +1,248 @@
+{
+    "sistemas": 
+    [
+        {
+            "sistema": "ERP SAP S/4 HANA",
+            "codigo": "030",
+            "diretorio": ".\\modelos\\sap",
+            "modulos": 
+            [
+                {
+                    "sigla": "BS",
+                    "descricao": "Bases Security",
+                    "codigo": "02",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Controle de Acesso"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "PM",
+                    "descricao": "Gerenciamento de Manutenção",
+                    "codigo": "03",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Gerenciamento de Local Instalação e Equipamento"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Manutenção Preventiva e Não Planejada"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "QM",
+                    "descricao": "Gerenciamento da Qualidade",
+                    "codigo": "04",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Cadastros de Qualidade"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Amostragem"
+                        },
+                        {
+                            "codigo": "03",
+                            "descricao": "Geração de Lote de Controle"
+                        },
+                        {
+                            "codigo": "04",
+                            "descricao": "Entrada de Resultado e Decisão de Utilização"
+                        },
+                        {
+                            "codigo": "05",
+                            "descricao": "Registro Info QM"
+                        }
+
+                    ]
+                },
+                {
+                    "sigla": "PP",
+                    "descricao": "Planejamento de Produção",
+                    "codigo": "05",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Gerenciamento de Lista Técnica"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Gerenciamento de Receita Mestre"
+                        },
+                        {
+                            "codigo": "03",
+                            "descricao": "Ordem de Processo"
+                        },
+                        {
+                            "codigo": "04",
+                            "descricao": "Ordem de Processo Somatropina"
+                        }                    
+                    ]
+                },
+                {
+                    "sigla": "MM",
+                    "descricao": "Administração de Materiais",
+                    "codigo": "06",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Cadastro de Materiais"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Cadastro de Parceiro de Negócios"
+                        },
+                        {
+                            "codigo": "03",
+                            "descricao": "Reserva para Centro de Custo, Projeto e Ordem"
+                        },
+                        {
+                            "codigo": "04",
+                            "descricao": "Requisição de Compra e Pedido de Compra"
+                        },
+                        {
+                            "codigo": "05",
+                            "descricao": "Recebimento Fiscal"
+                        },
+                        {
+                            "codigo": "06",
+                            "descricao": "Subcontratação  PP"
+                        },
+                        {
+                            "codigo": "07",
+                            "descricao": "Subcontratação  MM"
+                        },
+                        {
+                            "codigo": "08",
+                            "descricao": "Relatórios de Produtos Controlados"
+                        }
+                    ]
+                },
+                {
+                    
+                    "sigla": "SD",
+                    "descricao": "Vendas e Distribuição",
+                    "codigo": "07",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Vendas, Faturamento e Rastreabilidade"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Devoluções"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "EWM",
+                    "descricao": "Gestão de Armazém Avançada",
+                    "codigo": "08",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Cadastros de Armazenamento"
+                        },
+                        {
+                            "codigo": "02",
+                            "descricao": "Recebimento Físico"
+                        },
+                        {
+                            "codigo": "03",
+                            "descricao": "Localização de Materiais e Transferências"
+                        },
+                        {
+                            "codigo": "04",
+                            "descricao": "Atendimento e Separação de Materiais"
+                        },
+                        {
+                            "codigo": "05",
+                            "descricao": "Abastecimento de Cativa e Área Fracionada"
+                        },
+                        {
+                            "codigo": "06",
+                            "descricao": "Separação de Ordem de Venda (Expedição)"
+                        },
+                        {
+                            "codigo": "07",
+                            "descricao": "Transferências entre Centros"
+                        },
+                        {
+                            "codigo": "08",
+                            "descricao": "Inventários"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "Integração SAP x Oransys",
+                    "descricao": "Integração SAP x Oransys",
+                    "codigo": "09",
+                    "processos":
+                    [
+                        {
+                            "codigo": "01",
+                            "descricao": "Integração SAP x Oransys"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "Integração SAP x GoSat",
+                    "descricao": "Integração SAP x GoSat",
+                    "codigo": "09",
+                    "processos":
+                    [
+                        {
+                            "codigo": "02",
+                            "descricao": "Integração SAP x GoSat"
+                        }
+                    ]
+                },
+                {
+                    "sigla": "Integração SAP x Velox",
+                    "descricao": "Integração SAP x Velox",
+                    "codigo": "09",
+                    "processos":
+                    [
+                        {
+                            "codigo": "03",
+                            "descricao": "Integração SAP x Velox"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sistema": "GOSAT",
+            "codigo": "004",
+            "diretorio": ".\\modelos\\gosat",
+            "modulos":
+            [
+                {
+                    "sigla": "Recall",
+                    "descricao": "Recall",
+                    "codigo": "01", 
+                    "processos":
+                    [
+                        "Recall"
+                    ]
+                }
+            ]
+
+
+
+
+        }
+    ]
+}
